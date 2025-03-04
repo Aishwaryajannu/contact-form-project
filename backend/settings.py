@@ -43,7 +43,10 @@ MIDDLEWARE = [
 
 # CORS Configuration (Allow frontend to access backend API)
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # React frontend URL
+    "https://frontend-qs6oxqw0u-aishwaryajannus-projects.vercel.app",  # React frontend URL
+]
+CSRF_TRUSTED_ORIGINS = [
+    "https://frontend-qs6oxqw0u-aishwaryajannus-projects.vercel.app",  # Trust frontend for CSRF
 ]
 
 # Database configuration (Using SQLite)
